@@ -1,3 +1,5 @@
+<div class="col-6 offset-4 pt-4">
+<h1>Booze Blender</h1>
 <%= label_tag :search_by_name %>
 <%= form_tag "search-by-name", method: "GET", url: "search-by-name" do %>
   <%= text_field_tag :name, params[:Cocktail_name] %>
@@ -15,4 +17,5 @@
 <br />
 <br />
 
-<%= link_to "I need booze (random drink)", "/random", class: "btn btn-primary", style: "width:250px; margin-left: 10px " %>
+<%= link_to "I need booze (random drink)", "/random", class: "btn btn-primary", style: "width:250px;" %>
+</div>
