@@ -1,0 +1,30 @@
+Started GET "/" for ::1 at 2023-03-16 14:21:30 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ruifelipe/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ruifelipe/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.3ms | Allocations: 585)
+Completed 200 OK in 31ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4652)
+
+
+Started GET "/" for ::1 at 2023-03-16 14:24:59 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ruifelipe/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ruifelipe/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 477)
+Completed 200 OK in 16ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3313)
+
+
+Started GET "/" for ::1 at 2023-03-16 14:25:00 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ruifelipe/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ruifelipe/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 973)
+
+
+Started GET "/" for ::1 at 2023-03-16 14:29:08 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 426.0ms | Allocations: 97748)
+Completed 200 OK in 440ms (Views: 430.6ms | ActiveRecord: 0.0ms | Allocations: 100754)
+
+
