@@ -4,6 +4,7 @@
 <% @cocktails['drinks'].each do |drink| %>
   <div class="col-2" style="border: 1px solid gray; margin-right: 10px; margin-bottom: 10px;">
     <strong><%= drink['strDrink'] %></strong> <br>
+    <img src="<%= drink['strDrinkThumb'] %> " style="width:100%">
     <br>Instructions</br> <small><%= drink['strInstructions'] %></small> <br>
   </div>
 <% end %>

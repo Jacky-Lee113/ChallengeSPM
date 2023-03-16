@@ -972,3 +972,65 @@ Processing by HomeController#search_by_name as HTML
 Completed 200 OK in 275ms (Views: 10.9ms)
 
 
+Started GET "/search-by-name?utf8=%E2%9C%93&name=chocolate&commit=Search" for ::1 at 2023-03-16 15:24:39 -0400
+Processing by HomeController#search_by_name as HTML
+  Parameters: {"utf8"=>"✓", "name"=>"chocolate", "commit"=>"Search"}
+  Rendering home/search_by_name.html.erb within layouts/application
+  Rendered home/search_by_name.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 525ms (Views: 41.1ms)
+
+
+Started GET "/search-by-ingredient?utf8=%E2%9C%93&name=vodka&commit=Search" for ::1 at 2023-03-16 15:24:45 -0400
+Processing by HomeController#search_by_ingredient as HTML
+  Parameters: {"utf8"=>"✓", "name"=>"vodka", "commit"=>"Search"}
+  Rendering home/search_by_ingredient.html.erb within layouts/application
+  Rendered home/search_by_ingredient.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 220ms (Views: 17.0ms)
+
+
+Started GET "/random" for ::1 at 2023-03-16 15:24:49 -0400
+Processing by HomeController#random as HTML
+  Rendering home/random.html.erb within layouts/application
+  Rendered home/random.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 227ms (Views: 16.9ms)
+
+
+Started GET "/random" for ::1 at 2023-03-16 15:24:53 -0400
+Processing by HomeController#random as HTML
+  Rendering home/random.html.erb within layouts/application
+  Rendered home/random.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 222ms (Views: 16.8ms)
+
+
+Started GET "/search-by-name?utf8=%E2%9C%93&name=chocolate&commit=Search" for ::1 at 2023-03-16 15:25:51 -0400
+Processing by HomeController#search_by_name as HTML
+  Parameters: {"utf8"=>"✓", "name"=>"chocolate", "commit"=>"Search"}
+  Rendering home/search_by_name.html.erb within layouts/application
+  Rendered home/search_by_name.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 223ms (Views: 16.6ms)
+
+
+Started GET "/search-by-name?utf8=%E2%9C%93&name=chocolate&commit=Search" for ::1 at 2023-03-16 15:26:21 -0400
+Processing by HomeController#search_by_name as HTML
+  Parameters: {"utf8"=>"✓", "name"=>"chocolate", "commit"=>"Search"}
+  Rendering home/search_by_name.html.erb within layouts/application
+  Rendered home/search_by_name.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 305ms (Views: 19.5ms)
+
+
+Started GET "/search-by-name?utf8=%E2%9C%93&name=chocolate&commit=Search" for ::1 at 2023-03-16 15:26:38 -0400
+Processing by HomeController#search_by_name as HTML
+  Parameters: {"utf8"=>"✓", "name"=>"chocolate", "commit"=>"Search"}
+  Rendering home/search_by_name.html.erb within layouts/application
+  Rendered home/search_by_name.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 230ms (Views: 18.9ms)
+
+
+Started GET "/search-by-name?utf8=%E2%9C%93&name=chocolate&commit=Search" for ::1 at 2023-03-16 15:26:45 -0400
+Processing by HomeController#search_by_name as HTML
+  Parameters: {"utf8"=>"✓", "name"=>"chocolate", "commit"=>"Search"}
+  Rendering home/search_by_name.html.erb within layouts/application
+  Rendered home/search_by_name.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 237ms (Views: 14.1ms)
+
+
