@@ -28,3 +28,32 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 440ms (Views: 430.6ms | ActiveRecord: 0.0ms | Allocations: 100754)
 
 
+Started GET "/" for ::1 at 2023-03-16 14:55:02 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 200ms
+
+
+  
+SyntaxError (/Users/ruifelipe/Devel/Ontario Tech Local/ChallengeSPM/app/views/home/index.html.erb:7: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/home/index.html.erb:7: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2023-03-16 14:55:03 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 3ms
+
+
+  
+SyntaxError (/Users/ruifelipe/Devel/Ontario Tech Local/ChallengeSPM/app/views/home/index.html.erb:7: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/home/index.html.erb:7: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2023-03-16 14:55:20 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 307ms (Views: 305.7ms)
+
+
