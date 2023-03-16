@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   root "home#index"
   get '/search-by-name', to: "home#search_by_name"
+  get 'search-by-ingredient', to: "home#search_by_ingredient"
   get '/random', to: "home#random"
 end
